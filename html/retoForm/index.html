@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML con formularios</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form action="">
+        <h2>Datos Personales</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="email">Correo Electronico:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        <br>
+        <h2>Genero</h2>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <br>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        <br>
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label>
+        <br>
+       
+        <h2>Preferencias</h2>
+        <input type="checkbox" id="deportes" name="deportes" value="deportes">
+        <label for="deportes">Deportes</label>
+        <input type="checkbox" id="musica" name="musica" value="musica">
+        <label for="musica">Musica</label>
+        <input type="checkbox" id="lectura" name="lectura" value="lectura">
+        <label for="lectura">Lectura</label>
+        <br>
+        <h2>Comentarios</h2>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+
+
+    </form>
+    
+</body>
+</html>
