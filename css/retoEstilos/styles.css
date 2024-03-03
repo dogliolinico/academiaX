@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0093ff;
+  
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+    color: #ffffff;
+    height: 200px;
+    background-image: url(img/silhouette-of-a-person-kite-surfing-in-wavy-water.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main{
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: #000000;
+    margin: 10px 10px 10px 10px;
+}
+footer{
+    color: white;
+    font-size: small;
+    text-align: center;
+    background-color: rgb(2, 91, 155);
+    padding: 10px 10px 10px 10px;
+}
