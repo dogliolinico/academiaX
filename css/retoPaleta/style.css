@@ -1,0 +1,46 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'arial', sans-serif;
+    background-color: #f5f5f5;
+}
+header{
+    background-color: #CCCCCC;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    color: #333;
+    padding: 40px 0;
+}
+hr{
+    border: none;
+    margin: 0;
+    height: 
+    20px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+
+  
+}
+.largo{
+    grid-column: span 3;
+}
+div{
+    color: transparent;
+    display: none;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+
+}
+div:hover{
+    color: black;
+    transition: .3s color;
+}
